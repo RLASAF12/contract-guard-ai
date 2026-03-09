@@ -1,59 +1,39 @@
-# ContractGuard AI
+**Welcome to your Base44 project** 
 
-<div align="center">
+**About**
 
-### AI Contract Risk Analyzer — Know What You're Signing
-Protect your business with AI-powered contract analysis and risk mitigation.
+View and Edit  your app on [Base44.com](http://Base44.com) 
 
-</div>
+This project contains everything you need to run your app locally.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Development-orange" alt="Status">
-  <img src="https://img.shields.io/badge/Framework-React-61DAFB?logo=react" alt="React">
-  <img src="https://img.shields.io/badge/Build-Vite-646CFF?logo=vite" alt="Vite">
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-</p>
+**Edit the code in your local development environment**
 
-### Why ContractGuard?
+Any change pushed to the repo will also be reflected in the Base44 Builder.
 
-**In 6 years of legal practice, I've watched clients sign contracts that cost them thousands because they didn't know what to look for.** 
+**Prerequisites:** 
 
-ContractGuard AI uses advanced natural language processing to scan legal agreements, identify hidden risks, and suggest protective clauses in real-time. It's like having a senior legal counsel looking over your shoulder 24/7.
+1. Clone the repository using the project's Git URL 
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Create an `.env.local` file and set the right environment variables
 
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=300&fit=crop&crop=top" alt="Contract review preview" width="600">
-</p>
+```
+VITE_BASE44_APP_ID=your_app_id
+VITE_BASE44_APP_BASE_URL=your_backend_url
 
-## ✨ Features
-- **Risk Scoring** - Instant 1-100 risk assessment of any legal document.
-- **Hidden Clause Detection** - Automatically flags unfavorable terms and "fine print."
-- **Clause Library** - Access to a database of pre-vetted, protective legal language.
-- **Smart Remediation** - Suggests specific changes to mitigate identified risks.
-
-## 🚀 Installation
-```bash
-npm install
+e.g.
+VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
+VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
 ```
 
-## 🏎️ Quick Start
-```bash
-npm run dev
-```
+Run the app: `npm run dev`
 
-## 🛠️ Tech Stack
-- **Frontend**: React, Vite, Tailwind CSS
-- **State Management**: React Hooks & Context API
-- **Design**: Shadcn UI / Lucide Icons
-- **AI Engine**: Base44 Logic Integration
+**Publish your changes**
 
-> [!TIP]
-> Use the "Guard Mode" toggle for extra-strict analysis of indemnity and liability sections.
+Open [Base44.com](http://Base44.com) and click on Publish.
 
-## 🤝 Contributing
-Contributions are welcome! Please follow the legal document standards when submitting templates.
+**Docs & Support**
 
-## 👨‍💻 Author
-<img src="https://gitshow.dev/api/card/RLASAF12" alt="Made by RLASAF12">
+Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
 
-## 📄 License
-MIT
+Support: [https://app.base44.com/support](https://app.base44.com/support)
